@@ -27,7 +27,7 @@
       "name": "Michał Łaszczewski"
     }
   ],
-  "name": "reactive-dao-sockjs",
+  "name": "reactive-dao-websocket",
   "optionalDependencies": {},
   "readme": "README.md",
   "repository": {
