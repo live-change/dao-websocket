@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bufferutil": "^4.0.1",
+    "debug": "^4.1.1",
     "reactive-dao": "git+https://github.com/ReactiveObserver/reactive-dao.git",
     "supports-color": "^6.1.0",
     "universal-websocket-client": "^1.0.1",
