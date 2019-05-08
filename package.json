@@ -8,8 +8,11 @@
     "url": "https://github.com/reactiveobserver/reactive-dao-sockjs/issues"
   },
   "dependencies": {
+    "bufferutil": "^4.0.1",
     "reactive-dao": "git+https://github.com/ReactiveObserver/reactive-dao.git",
+    "supports-color": "^6.1.0",
     "universal-websocket-client": "^1.0.1",
+    "utf-8-validate": "^5.0.2",
     "websocket": "^1.0.24"
   },
   "description": "universal reactive data access object",
