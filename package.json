@@ -12,7 +12,7 @@
   "dependencies": {
     "bufferutil": "^4.0.1",
     "debug": "^4.1.1",
-    "reactive-dao": "git+https://github.com/live-change/dao-websocket.git",
+    "@live-change/dao": "git+https://github.com/live-change/dao.git",
     "supports-color": "^6.1.0",
     "universal-websocket-client": "^1.0.1",
     "utf-8-validate": "^5.0.2",
@@ -33,7 +33,6 @@
       "name": "Michał Łaszczewski"
     }
   ],
-  "name": "reactive-dao-websocket",
   "optionalDependencies": {},
   "readme": "README.md",
   "repository": {
