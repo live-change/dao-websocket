@@ -1,22 +1,24 @@
 {
+  "name": "@live-change/dao-websocket",
+  "version": "0.2.0",
   "author": {
     "email": "m8@em8.pl",
     "name": "Michał Łaszczewski",
-    "url": "http://realtime.guru/"
+    "url": "http://www.viamage.com/"
   },
   "bugs": {
-    "url": "https://github.com/reactiveobserver/reactive-dao-sockjs/issues"
+    "url": "https://github.com/live-change/dao-websocket/issues"
   },
   "dependencies": {
     "bufferutil": "^4.0.1",
     "debug": "^4.1.1",
-    "reactive-dao": "git+https://github.com/ReactiveObserver/reactive-dao.git",
+    "reactive-dao": "git+https://github.com/live-change/dao-websocket.git",
     "supports-color": "^6.1.0",
     "universal-websocket-client": "^1.0.1",
     "utf-8-validate": "^5.0.2",
     "websocket": "^1.0.24"
   },
-  "description": "universal reactive data access object",
+  "description": "live-change dao websocket transport",
   "devDependencies": {
     "blue-tape": "^1.0.0"
   },
@@ -27,7 +29,7 @@
   "browser": "browser.js",
   "maintainers": [
     {
-      "email": "michal@emikse.com",
+      "email": "michal@laszczewski.com",
       "name": "Michał Łaszczewski"
     }
   ],
@@ -40,6 +42,5 @@
   },
   "scripts": {
     "compileTests": "webpack test/*.js tests-bundle.js"
-  },
-  "version": "0.0.1"
+  }
 }
