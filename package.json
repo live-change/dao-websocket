@@ -10,7 +10,7 @@
     "url": "https://github.com/live-change/dao-websocket/issues"
   },
   "dependencies": {
-    "@live-change/dao": "^0.2.21",
+    "@live-change/dao": "^0.2.22",
     "bufferutil": "^4.0.1",
     "debug": "^4.1.1",
     "supports-color": "^6.1.0",
