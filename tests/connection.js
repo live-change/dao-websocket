@@ -28,7 +28,7 @@ test("time value", (t) => {
       console.log('Server is listening on port',port);
     })
 
-    let wsServer = new WebSocketServer({httpServer, autoAcceptConnections: false})
+    let wsServer = new WebSocketServer({ httpServer, autoAcceptConnections: false })
     wsServer.on("request",(request) => {
       t.pass("WebSocket request made")
       let serverConnection = new rdws.server(request)
@@ -36,7 +36,7 @@ test("time value", (t) => {
     })
 
     setTimeout(()=> {
-      client = new rdws.client(sessionId, "ws://localhost:"+port+'/ws', {
+      client = new rdws.client({ sessionId }, "ws://localhost:"+port+'/ws', {
         onConnect: () => t.pass("connected"),
         delay: 50
       })
